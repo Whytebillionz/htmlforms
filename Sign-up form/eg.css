@@ -1,0 +1,29 @@
+* {
+    padding: 5px;
+    margin: 40px
+    
+    ;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 100px;
+    background-color: aqua;
+    margin: 30px;
+    border: auto;
+    color: blueviolet;
+    border-color: rgb(228, 8, 8);
+    width: 100%;
+}
+
+.item-one {
+    border: 30px;
+    margin: 20px;
+    padding: 40px;
+}
+
+.item-two {
+    border: 30px;
+    margin: 20px;
+    padding: 40px;
+}
