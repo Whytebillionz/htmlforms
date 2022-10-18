@@ -1,1 +1,27 @@
-*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom {
+    padding: 10px;
+    margin: 5px;
+}
+
+#submitbutton {
+    max-width: 2px;
+    cursor: pointer;
+}
