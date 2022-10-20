@@ -5,23 +5,95 @@
     display: grid;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-
+:root {
+    --white: white;
+    --fadedgrey: rgb(238, 238, 238);
+    --green: green;
 }
 
-.form {
+main {   
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.bottom {
-    padding: 10px;
-    margin: 5px;
+.container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
-#submitbutton {
-    max-width: 2px;
+/* .odin_logo {
+    position: relative; 
+}  */
+
+.head {
+    background-color: var(--fadedgrey) ;
+}
+
+.form-text {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.para-text {
+    padding: 0 2rem 2rem;
+}
+
+.para-text > :first-child {
+    margin-bottom: 1rem;
+}
+
+.container > div {
+    /* border: 1px solid red;    */
+}
+
+.head > div {
+    padding-top: 3.3rem;
+}
+
+
+.form-grid {
+    background-color: var(--white);
+    padding: 1rem 2rem;
+    display: flex;
+    box-shadow: 0px 1px 6px -2px #7e7e80;
+}
+
+.grid-1 {
+    margin-bottom: 10px;
+}
+
+
+.grid-2 {
+    margin-left: 2rem;
+}
+
+
+button {
+    background-color: var(--green);
+    color: var(--white);
+    border: 2px solid green;
     cursor: pointer;
+    width: 120px;
+    margin: 20px 0 0 30px;
+}
+
+.log-in {
+    margin: 10px 0 0 3px;
+    color: var(--green);
+}
+
+.last-content {
+    display: flex;
+    margin: 10px;
+}
+
+.closing-text {
+    margin: 10px 0 50px 20px;
+}
+
+label {
+    text-transform: uppercase;
 }
