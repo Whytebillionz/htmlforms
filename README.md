@@ -1,5 +1,5 @@
-# Project Name
-Sign-up Form
+# Project Name:
+# Sign-up Form
 
 > The project is about creating a sign-up form using the idea of flex and flexbox
 
